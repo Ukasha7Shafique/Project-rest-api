@@ -65,3 +65,4 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         """recommende for all django models"""
     def __str__(self):
         """Return string representation of out user"""
+        return self.email
